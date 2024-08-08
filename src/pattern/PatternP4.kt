@@ -9,7 +9,9 @@ fun main() {
             print("*")
         }
 
-        print("----")
+        for (j in rows downTo  1){
+            print("-")
+        }
 
         while (k != 2 * i) {
             print("*")
